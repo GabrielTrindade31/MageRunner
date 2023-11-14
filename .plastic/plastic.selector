@@ -1,0 +1,4 @@
+repository "ProjetoJogocelular@Trindade31@cloud"
+  path "/"
+    br "/main"
+    co "/main"
