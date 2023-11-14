@@ -23,6 +23,6 @@ MonoBehaviour:
   SceneViewStateBeforeTutorialStarted:
     In2DMode: 0
     Orthographic: 0
-    Size: 10
-    Point: {x: 0, y: 0, z: 0}
-    Direction: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    Size: 91.67448
+    Point: {x: 0, y: 3.005, z: 85.5}
+    Direction: {x: -0.16954081, y: 0.6235747, z: -0.14095646, w: -0.7500283}

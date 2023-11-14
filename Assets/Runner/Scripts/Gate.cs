@@ -28,6 +28,7 @@ namespace HyperCasual.Runner
         {
             ChangeSpeed,
             ChangeSize,
+            ChangeColor
         }
 
         /// <summary>
@@ -88,6 +89,9 @@ namespace HyperCasual.Runner
 
                 case GateType.ChangeSize:
                     PlayerController.Instance.AdjustScale(m_Value);
+                break;
+                case GateType.ChangeColor:
+                    PlayerController.Instance.ChangeColor(Color.blue);
                 break;
             }
 

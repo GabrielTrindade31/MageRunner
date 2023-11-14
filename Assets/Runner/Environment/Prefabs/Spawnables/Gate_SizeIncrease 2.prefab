@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3422265874995436607}
   - component: {fileID: 4877652770548064436}
   m_Layer: 0
-  m_Name: Gate_SizeIncrease
+  m_Name: Gate_SizeIncrease 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

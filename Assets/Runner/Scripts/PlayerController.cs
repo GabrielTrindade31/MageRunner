@@ -226,7 +226,11 @@ namespace HyperCasual.Runner
         {
             m_HasInput = false;
         }
-
+        public void ChangeColor(Color color)
+        {
+        // Change the player's color to the specified color
+         m_SkinnedMeshRenderer.material.color = color;
+        }
         /// <summary>
         /// Set the level width to keep the player constrained
         /// </summary>
