@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentView: TableOfContent
-  PreviousView: Tutorial
+  PreviousView: 
   DomainReloadOccured: 1
   IsOpen: 1
   AreTestsRunning: 0
@@ -23,6 +23,6 @@ MonoBehaviour:
   SceneViewStateBeforeTutorialStarted:
     In2DMode: 0
     Orthographic: 0
-    Size: 91.67448
-    Point: {x: 0, y: 3.005, z: 85.5}
-    Direction: {x: -0.16954081, y: 0.6235747, z: -0.14095646, w: -0.7500283}
+    Size: 10
+    Point: {x: 0, y: 0, z: 0}
+    Direction: {x: -0.25952137, y: -0.044311184, z: 0.011921076, w: -0.96464753}

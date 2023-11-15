@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SnapToGrid: 1
-  m_GateType: 1
+  m_GateType: 2
   m_Value: 0.5
   m_Text: {fileID: 5952137432066916901}
 --- !u!1 &7747405279885962838
@@ -127,11 +127,11 @@ GameObject:
   - component: {fileID: 2732193505187024241}
   - component: {fileID: 7295731719642658160}
   m_Layer: 0
-  m_Name: BIGGER
+  m_Name: ICE POWER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &5952137432066916901
 RectTransform:
@@ -142,16 +142,16 @@ RectTransform:
   m_GameObject: {fileID: 7747405279885962838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.10000001}
-  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 10}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.15405655, y: 0.33333334, z: 10}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1021949262770465885}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3, y: 3}
+  m_SizeDelta: {x: 6.59, y: 3.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2732193505187024241
 MeshRenderer:
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BIGGER
+  m_text: ICE POWER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
